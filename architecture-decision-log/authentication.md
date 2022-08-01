@@ -1,5 +1,11 @@
 # Authetication
 
 - Authetication service
-- Many authentication providers possible
-- Authenticate with bearer tokens
+- Adding new identity possible
+- Identity can have diffrent auth provider
+  - own in service db
+  - ad
+  - facebook
+  - google
+- Only User service can add new identity
+  - handle on system level isito
