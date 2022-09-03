@@ -9,3 +9,5 @@
   - google
 - Only User service can add new identity
   - handle on system level isito
+- Service will use http
+  - https will be handle by isito
