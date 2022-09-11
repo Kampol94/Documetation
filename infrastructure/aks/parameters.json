@@ -1,0 +1,72 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "conferenceSystemCluster"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "dnsPrefix": {
+            "value": "conferenceSystemCluster-dns"
+        },
+        "osDiskSizeGB": {
+            "value": 0
+        },
+        "kubernetesVersion": {
+            "value": "1.23.8"
+        },
+        "networkPlugin": {
+            "value": "kubenet"
+        },
+        "enableRBAC": {
+            "value": true
+        },
+        "vmssNodePool": {
+            "value": true
+        },
+        "windowsProfile": {
+            "value": false
+        },
+        "nodeResourceGroup": {
+            "value": "MC_ConferenceSystem_conferenceSystemCluster_westeurope"
+        },
+        "adminGroupObjectIDs": {
+            "value": []
+        },
+        "azureRbac": {
+            "value": false
+        },
+        "disableLocalAccounts": {
+            "value": false
+        },
+        "enablePrivateCluster": {
+            "value": false
+        },
+        "enableHttpApplicationRouting": {
+            "value": false
+        },
+        "enableAzurePolicy": {
+            "value": false
+        },
+        "enableSecretStoreCSIDriver": {
+            "value": false
+        },
+        "enableOmsAgent": {
+            "value": true
+        },
+        "workspaceRegion": {
+            "value": "West Europe"
+        },
+        "workspaceName": {
+            "value": "DefaultWorkspace-84c472c7-2277-4228-96b4-417341cab1ae-WEU"
+        },
+        "omsWorkspaceId": {
+            "value": "/subscriptions/84c472c7-2277-4228-96b4-417341cab1ae/resourcegroups/defaultresourcegroup-weu/providers/microsoft.operationalinsights/workspaces/defaultworkspace-84c472c7-2277-4228-96b4-417341cab1ae-weu"
+        },
+        "omsSku": {
+            "value": "standalone"
+        }
+    }
+}
